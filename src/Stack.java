@@ -11,6 +11,10 @@ public class Stack {
     }
 
     public void push(int item) {
+        if(top==length){
+            System.out.println("Stack is full");
+            return;
+        }
         if (top == -1) { // if stack is empty
             arr[++top] = item;
         } else {
