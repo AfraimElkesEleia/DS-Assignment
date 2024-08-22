@@ -45,7 +45,7 @@ public class Stack {
         }
     }
     public boolean isEmpty() {
-        return top == 0;
+        return top == -1 ;
     }
 
     public boolean isFull() {
